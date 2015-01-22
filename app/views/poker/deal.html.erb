@@ -1,0 +1,22 @@
+<h1>Welcome to the KIEI-925 Casino!</h1>
+
+<!-- Deal the cards here -->
+<h2>Deal the cards</h2>
+<%
+	card1_number = [2, 3, 4, 5, 6, 7, 8, 9, 10, "jack", "queen", "king", "ace"].sample
+	card1_suit = ["diamonds", "spades", "clubs", "hearts"].sample
+	card2_number = [2, 3, 4, 5, 6, 7, 8, 9, 10, "jack", "queen", "king", "ace"].sample
+	card2_suit = ["diamonds", "spades", "clubs", "hearts"].sample
+	card3_number = [2, 3, 4, 5, 6, 7, 8, 9, 10, "jack", "queen", "king", "ace"].sample
+	card3_suit = ["diamonds", "spades", "clubs", "hearts"].sample
+	card4_number = [2, 3, 4, 5, 6, 7, 8, 9, 10, "jack", "queen", "king", "ace"].sample
+	card4_suit = ["diamonds", "spades",  "clubs", "hearts"].sample
+	card5_number = [2, 3, 4, 5, 6, 7, 8, 9, 10, "jack", "queen", "king", "ace"].sample
+	card5_suit = ["diamonds", "spades", "clubs", "hearts"].sample
+%>
+
+<img style="height:300px" src="http://golearntocode.com/images/cards/<%= card1_number%>_of_<%= card1_suit%>.png">
+<img style="height:300px" src="http://golearntocode.com/images/cards/<%= card2_number%>_of_<%= card2_suit%>.png">
+<img style="height:300px" src="http://golearntocode.com/images/cards/<%= card3_number%>_of_<%= card3_suit%>.png"> 
+<img style="height:300px" src="http://golearntocode.com/images/cards/<%= card4_number%>_of_<%= card4_suit%>.png">
+<img style="height:300px" src="http://golearntocode.com/images/cards/<%= card5_number%>_of_<%= card5_suit%>.png">
